@@ -1,0 +1,51 @@
+* {
+  margin: auto;
+}
+
+body {
+  background-color: #97caef;
+}
+
+.outerContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.innerContainer {
+  border: 1px solid grey;
+  padding: 25px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputBox {
+  width: 300px;
+  height: 30px;
+  background-color: steelblue;
+  color: azure;
+  font-size: 13px;
+}
+
+::placeholder {
+  color: azure;
+}
+
+.button {
+  width: 100%;
+  height: 30px;
+  background-color: azure;
+  color: steelblue;
+}
+
+.inputBox:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.heading {
+  text-align: center;
+}
