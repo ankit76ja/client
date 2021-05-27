@@ -1,7 +1,3 @@
-* {
-  margin: auto;
-}
-
 body {
   background-color: #97caef;
 }
@@ -16,32 +12,40 @@ body {
 .innerContainer {
   border: 1px solid grey;
   padding: 25px;
+  background-color: steelblue;
   box-sizing: border-box;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 .inputBox {
   width: 300px;
-  height: 30px;
-  background-color: steelblue;
-  color: azure;
+  height: 40px;
+  background-color: azure;
+  color: steelblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
   font-size: 13px;
+  border-radius: 2px;
+  border: none;
 }
 
+input:focus {
+  outline: none;
+}
 ::placeholder {
-  color: azure;
+  padding: 2px;
+  color: steelblue;
 }
 
 .button {
   width: 100%;
   height: 30px;
-  background-color: azure;
-  color: steelblue;
+  background-color: #97caef;
+  border: none;
+  color: azure;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-.inputBox:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 .mt-20 {
   margin-top: 20px;
 }
