@@ -1,8 +1,9 @@
 .messageContainer {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   padding: 0 5%;
-  margin-top: 3px;
+  margin-top: 20px;
 }
 
 .messageText {
@@ -20,6 +21,18 @@
   color: white;
   display: inline-block;
   max-width: 80%;
+}
+
+.message {
+  position: absolute;
+  bottom: -25%;
+  font-size: 0.9em;
+  margin: 0;
+  display: flex;
+}
+
+.messageTimeLeft {
+  left: 8%;
 }
 
 .messageText {
